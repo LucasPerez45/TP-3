@@ -1,0 +1,210 @@
+html {
+
+    font-family: "Montserrat", sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+
+    margin: 0;
+    background-color: rgb(16, 98, 206);
+
+}
+
+/* TITULO */
+
+header {
+
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 15px;
+
+}
+
+header h1 {
+
+    text-align: center;
+    font-size: 50px;
+
+}
+
+/* TITULO */
+
+
+/* TITULO DEL FORMULARIO */
+
+#titulo_registro {
+
+    background-color: rgb(16, 98, 206);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+/* TITULO DEL FORMULARIO */
+
+
+/* FORMULARIO */
+
+.formulario {
+
+    background-image: url("fondo_tp3.jpg");
+    background-size: 700px;
+    background-color: grey;
+    margin: auto;
+    padding: 30px;
+
+}
+
+.registro {
+
+    width: 1840px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 7px;
+    margin-bottom: 16px;
+    border: 1px solid black;
+    box-shadow: 7px 13px 37px 7px black
+}
+
+.formulario .boton {
+
+    width: 100%;
+    background-color: black;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0px;
+    font-size: 50px;
+    cursor: pointer;
+
+}
+
+.formulario p {
+
+    height: 40px;
+    text-align: center;
+    color: orange;
+    font-size: 35px;
+
+}
+
+.formulario a {
+
+    transition: color 0.3s ease;
+    color: white;
+    text-decoration: none;
+
+}
+
+.formulario a:hover {
+
+    color: cornflowerblue;
+
+}
+
+/* FORMULARIO */
+
+
+/* ÍNDICE */
+
+.indice {
+
+    background-color: rgba(255, 255, 255, 0.650);
+    width: 1500px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 5px 25px 20px 15px;
+}
+
+.titulo_indice {
+
+    text-align: center;
+    text-decoration: underline;
+    font-size: 50px;
+
+}
+
+.indice .contenido {
+
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    transition: color 0.3s ease;
+
+}
+
+.indice .contenido:hover {
+
+    color: cornflowerblue;
+
+}
+
+/* ÍNDICE */
+
+
+/* INFORMACIÓN DE LENGUAJES*/
+
+.informacion {
+
+    width: 1500px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.650);
+    border-radius: 10px;
+    padding: 30px 25px 20px 15px;
+    text-align: center;
+
+}
+
+.informacion h2 {
+
+    text-decoration: underline;
+
+}
+
+.informacion .wiki {
+
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    transition: color 0.3s ease;
+
+
+}
+
+.informacion .wiki:hover {
+
+    color: cornflowerblue;
+
+}
+
+/* INFORMACIÓN DE LENGUAJES */
+
+
+/* PIE DE PÁGINA */
+
+footer {
+
+    background-color: black;
+    padding: 2px;
+
+}
+
+footer a {
+
+    transition: color 0.3s ease;
+    color: white;
+    text-decoration: none;
+
+}
+
+footer a:hover {
+
+    color: cornflowerblue;
+
+}
+
+/* PIE DE PÁGINA */
